@@ -1,0 +1,88 @@
+body {
+  background-color:grey;
+  margin:auto;
+}
+
+#container {
+  width:95%;
+  background-color:white;
+  position:relative;
+  margin:auto;
+  display:grid;
+  justify-items:center;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:  auto auto;
+  grid-template-areas:
+    "side main"
+    "side footer"
+}
+
+#img-div {
+  grid-area: side;
+  width:auto; 
+  padding:20px;
+  background-color: #e5e4e3;
+}
+
+#image {
+  max-width:100%;
+  display:block;
+  height:auto;
+  margin:auto;
+  padding-top:40px;
+  border-radius:1%;
+}
+
+#img-caption {
+  font-family:'Merda One', cursive;
+} 
+
+#main {
+  grid-area:main;
+  padding:20px;
+}
+
+#tribute-footer {
+  grid-area:footer;
+  padding: 20px
+}
+
+#tribute-footer p {
+  font-family: 'Merda One', cursive;
+  text-align:center;
+  display:inline-block;
+}
+
+#title {
+  font-family:'Merda One', cursive;
+}
+
+h3 {
+  color:grey;
+  font-family:'Gloria Hallelujah', cursive;
+  font-size:;
+}
+
+#tribute-info p {
+  font-family: 'Merda One', cursive;
+  width:50vw;
+}
+
+ul {
+  font-family: 'Merda One', cursive;
+  font-size:13px;
+  width:50vw;
+}
+
+li {
+  padding:10px;
+  text-decoration:none;
+}
+
+#caption {
+  font-size:10px;
+}
+
+#a:hover {
+  color:red;
+}
