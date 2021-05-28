@@ -2,3 +2,5 @@
 
 # Nelson-Mandela-Tribute-Page
 A tribute page to nelson mandela
+
+ https://mandelatributecozycodr.netlify.app 
